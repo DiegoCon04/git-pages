@@ -1,49 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Diego C's Portfolio</title>
- <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego C's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+ 
 <body>
- <header>
-   <h1>I'm Diego Contreras</h1>
-   <img src="images/Face Shot.jpg" alt="Photo of me (Diego Contreras)" class="face-shot">
-   <nav>
-     <a href="#about">About</a> |
-     <a href="#projects">Projects</a> |
-     <a href="#contact">Contact</a>
-   </nav>
- </header>
- <section id="about">
-   <h2>About Me</h2>
-   <p>I’m a System Administrator and Networking enthusiast focused on Linux, automation, and infrastructure security. I build tools, scripts, and labs that solve real operational problems.</p>
- </section>
- <section id="projects">
-   <h2>Projects</h2>
-   <div class="project">
-     <h3>Automated System Utilization Report Script</h3>
-     <div class="project-content">
-     <a href="https://github.com/DiegoCon04/System_Utilization_Report" target="_blank">
-       <img src="images/projects/system_report.png" alt="System Utilization Report Preview" class="project-image">
-     </a>
-      <div class = "project-text">
-     <p>Automated Bash script that monitors system performance and security activity, generating a timestamped report for daily server health checks.</p>
-      </div>
-     </div>
-   </div>
-   <div class="project">
-     <h3>Inactive User Detection</h3>
-     <p>Bash script that identifies users with stale activity by checking directory modification dates, generating a list of accounts for review.</p>
-   </div>
-   <div class="project">
-     <h3>User Cleanup & MariaDB Removal</h3>
-     <p>Script that reads a list of inactive users, safely deletes their home directories and removes their associated MariaDB tables.</p>
-   </div>
- </section>
- <footer>
-   © 2026 Diego Contreras | <a href="https://github.com/">GitHub</a>
- </footer>
+    <header>
+        <h1>Diego Contreras</h1>
+        <nav>
+            <img src="images/Face Shot.jpg" alt="Photo of me (Diego Contreras)" class="face-shot">
+            <a href="#about">About</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+ 
+    <section id="about">
+        <img src="images/Face Shot.jpg" alt="Photo of me (Diego Contreras)" class="face-shot">
+        <h2>About Me</h2>
+        <p>
+            I’m a System Administrator and Networking enthusiast focused on Linux, automation, and infrastructure security. I build tools, scripts, and labs that solve real operational problems.
+        </p>
+    </section>
+
+    <!-- Projects Section-->
+    <section id="projects">
+        <h2>Projects</h2>
+     
+        <div class="project">
+            <h3>Automated System Utilization Report Script</h3>
+            <div class="project-content">
+                <a href="https://github.com/DiegoCon04/System_Utilization_Report" target="_blank">
+                    <img src="images/projects/system_report.png" alt="System Utilization Report Preview" class="project-image">
+                </a>
+                <div class = "project-text">
+                    <p>
+                        Automated Bash script that monitors system performance and security activity, generating a timestamped report for daily server health checks.
+                    </p>
+                </div>
+            </div>
+        </div>
+     
+        <div class="project">
+            <div class="project-content">
+                <a href="https://github.com/DiegoCon04/Inactive_User_Detection" target="_blank">
+                    <img src="images/projects/Inactive_Report.png" alt="Inactive User Detection Preview" class="project-image">
+                </a>
+                <div class="project-text">
+                    <h3>Inactive User Detection</h3>
+                    <p>
+                        Bash script that identifies users with stale activity by checking directory modification dates, generating a list of accounts for review.
+                    </p>
+                </div>
+            </div>
+        </div>
+     
+        <div class="project">
+            <div class="project-content">
+                <a href="https://github.com/DiegoCon04/User_and_Database_Sanitization" target="_blank">
+                    <img src="images/projects/SanitizationReport.png" alt="User and Database Sanitization Preview" class="project-image">
+                </a>
+                <div class="project-text">
+                    <h3>User & Database Sanitization Script</h3>
+                    <p>
+                        Script that reads a list of inactive users, safely deletes their home directories and removes their associated MariaDB tables.
+                    </p>
+                </div>
+             </div>
+         </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: diegooocontreras1@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/diego-contreras-ab466024a" target="_blank">My LinkedIn</a></p>
+        <p>Handshake: <a href="https://app.joinhandshake.com/profiles/pf2p7d" target="_blank">My Handshake</a></p>
+    </section>
+ 
+    <footer>
+        © 2026 Diego Contreras | <a href="https://github.com/">GitHub</a>
+    </footer>
 </body>
 </html>
